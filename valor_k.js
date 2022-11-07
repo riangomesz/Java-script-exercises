@@ -1,4 +1,5 @@
-
+/* Dada um texto qualquer e um lista de termos de pesquisa (sequencia de caracteres), retorne os primeiros
+K termos mais recorrentes na string, onde K é um parâmetro configurável.*/
 
 
 
