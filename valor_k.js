@@ -1,3 +1,7 @@
+
+
+
+
 function calculaTopOcorrenciasDeQueries(texto, queries, k) {
     let queriesComIdx = [];
     for (let cdQ of queries) {
