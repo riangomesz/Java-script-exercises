@@ -1,5 +1,14 @@
-/* Dada um texto qualquer e um lista de termos de pesquisa (sequencia de caracteres), retorne os primeiros
-K termos mais recorrentes na string, onde K é um parâmetro configurável.*/
+/* 
+Dada um texto qualquer e um lista de termos de pesquisa (sequencia de caracteres), retorne os primeiros
+K termos mais recorrentes na string, onde K é um parâmetro configurável. 
+
+Exemplo:
+String: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+Lista de termos: ["a", "em", "i", "el"]
+K: 2
+Resultado: ["i", "a"]
+
+*/
 
 
 
