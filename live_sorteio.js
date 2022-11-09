@@ -16,6 +16,17 @@ Assuma que você vai receber os dados de horas assistidas e de assinaturas em do
 
 Considere que as mesmas posições do vetor representam a mesma pessoa. Ex:
 
+A pessoa número 1 é assinante e viu 103 horas de conteúdo
+A pessoa número 4 não é assinante e viu meia hora de conteúdo
+Escreva um código que retorne um vetor com o percentual de chances de cada uma das pessoas ser sorteada. Retorne os valores arredondados para o inteiro mais próximo.
+
+Exemplo:
+assinante = [True, False]
+horas_assistidas = [ 60, 120]
+Output:
+[50, 50] 
+*/
+
 function calculaPorcentagemSorteio(assinante,minutosAssistidos) {
   
     let numHorasInit = minutosAssistidos.map((cdTime, idx) => {
