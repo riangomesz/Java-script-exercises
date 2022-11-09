@@ -11,6 +11,10 @@ assinante premium e a que assistiu 20 horas não, ambos terão a mesma chance no
 
 Assuma que você vai receber os dados de horas assistidas e de assinaturas em dois vetores, no modelo mostrado abaixo:
 
+  assinante = [True, False, False, False, True, False, True, True, False, False, False]
+  minutos_assistidos = [6144, 2742, 330, 30, 1500, 4032, 24036, 3288, 2076, 24540, 4716]
+
+Considere que as mesmas posições do vetor representam a mesma pessoa. Ex:
 
 function calculaPorcentagemSorteio(assinante,minutosAssistidos) {
   
