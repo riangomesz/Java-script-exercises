@@ -1,3 +1,9 @@
+/* Função em Java Script que através do "numeroPedido" retorna um sabor de pizza, em uma pizzaria. HUUM ! QUE DELÍCIA ;p
+
+
+
+
+
 function clientePedido (numeroPedido){
     
     if ( numeroPedido === 1 ){
